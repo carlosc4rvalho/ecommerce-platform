@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HeaderContainer, Logo, Nav, NavItem, NavMenu, SearchBar, IconContainer } from "./Header.styles";
-import Sidebar from "../SideBar/Sidebar";
+import Sidebar from "../Sidebar/Sidebar";
 
 const Header: React.FC = () => {
   const [showSidebar, setShowSidebar] = useState(false);
