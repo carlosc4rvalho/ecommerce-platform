@@ -16,6 +16,9 @@ export const SidebarContainer = styled.div<SidebarContainerProps>`
   z-index: 100;
   transform: ${props => props.isOpen ? 'translateX(0)' : 'translateX(100%)'};
   transition: transform 0.5s ease-in-out;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 `;
 
 export const CloseButton = styled.div`
